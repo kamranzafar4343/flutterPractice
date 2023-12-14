@@ -15,22 +15,58 @@ class Home extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.amber,
       ),
-      body: const Center(
-        child: Image(
-          image: AssetImage('images/metal-print.png'),
-          // image: NetworkImage(
-          //     'https://cdn.pixabay.com/photo/2023/11/06/02/16/butterfly-8368603_1280.jpg'),
-        ),
-        // child: Text(
-        //   'hy there this is flutter practice',
-        //   style: TextStyle(
-        //     fontSize: 20.0,
-        //     fontWeight: FontWeight.bold,
-        //     backgroundColor: Color.fromARGB(255, 241, 56, 56),
-        //     color: Color.fromARGB(255, 255, 255, 255),
-        //   ),
-        // ),
+      body: Column(
+        children: [
+          Container(
+            child: Text(
+              'Hello world',
+              style: TextStyle(
+                color: Colors.amber,
+                fontSize: 20.0,
+                fontStyle: FontStyle.italic,
+              ),
+            ),
+            color: const Color.fromARGB(255, 39, 37, 37),
+            padding:
+                const EdgeInsets.symmetric(horizontal: 30.0, vertical: 40.0),
+            margin:
+                const EdgeInsets.symmetric(horizontal: 50.0, vertical: 50.0),
+          ),
+          Center(
+            child: Container(
+              child: Text(
+                'Hello world',
+                style: TextStyle(
+                  color: Colors.amber,
+                  fontSize: 20.0,
+                  fontStyle: FontStyle.italic,
+                ),
+              ),
+              color: const Color.fromARGB(255, 39, 37, 37),
+              padding:
+                  const EdgeInsets.symmetric(horizontal: 30.0, vertical: 40.0),
+              margin:
+                  const EdgeInsets.symmetric(horizontal: 50.0, vertical: 50.0),
+            ),
+          ),
+        ],
       ),
     );
   }
 }
+            // Image(
+            //   image: AssetImage('images/metal-print.png'),
+            // ),
+
+                
+            // Text(
+            //   'hy there this is flutter practice',
+            //   style: TextStyle(
+            //     fontSize: 20.0,
+            //     fontWeight: FontWeight.bold,
+            //     backgroundColor: Color.fromARGB(255, 241, 56, 56),
+            //     color: Color.fromARGB(255, 255, 255, 255),
+            //   ),
+            // ),
+          
+    
