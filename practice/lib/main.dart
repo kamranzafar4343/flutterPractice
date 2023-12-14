@@ -15,11 +15,12 @@ class Home extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.amber,
       ),
-      body: Column(
+      body: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
           Container(
             child: Text(
-              'Hello world',
+              'Container 1',
               style: TextStyle(
                 color: Colors.amber,
                 fontSize: 20.0,
@@ -29,22 +30,20 @@ class Home extends StatelessWidget {
             color: const Color.fromARGB(255, 39, 37, 37),
             padding:
                 const EdgeInsets.symmetric(horizontal: 30.0, vertical: 40.0),
-            margin:
-                const EdgeInsets.symmetric(horizontal: 50.0, vertical: 50.0),
+            margin: const EdgeInsets.all(10.0),
           ),
           Center(
             child: Container(
               child: Text(
-                'Hello world',
+                'Container 2',
                 style: TextStyle(
-                  color: Colors.amber,
-                  fontSize: 20.0,
-                  fontStyle: FontStyle.italic,
+                  color: Color.fromARGB(255, 241, 12, 0),
+                  fontSize: 10.0,
                 ),
               ),
               color: const Color.fromARGB(255, 39, 37, 37),
               padding:
-                  const EdgeInsets.symmetric(horizontal: 30.0, vertical: 40.0),
+                  const EdgeInsets.symmetric(horizontal: 30.0, vertical: 20.0),
               margin:
                   const EdgeInsets.symmetric(horizontal: 50.0, vertical: 50.0),
             ),
