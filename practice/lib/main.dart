@@ -16,7 +16,6 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.amber,
       ),
       body: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
           Container(
             child: Text(
