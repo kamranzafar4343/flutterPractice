@@ -17,8 +17,9 @@ class Home extends StatelessWidget {
       ),
       body: const Center(
         child: Image(
-          image: NetworkImage(
-              'https://cdn.pixabay.com/photo/2023/11/06/02/16/butterfly-8368603_1280.jpg'),
+          image: AssetImage('images/metal-print.png'),
+          // image: NetworkImage(
+          //     'https://cdn.pixabay.com/photo/2023/11/06/02/16/butterfly-8368603_1280.jpg'),
         ),
         // child: Text(
         //   'hy there this is flutter practice',
