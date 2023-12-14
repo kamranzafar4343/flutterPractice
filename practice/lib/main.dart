@@ -16,15 +16,19 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.amber,
       ),
       body: const Center(
-        child: Text(
-          'hy there this is flutter practice',
-          style: TextStyle(
-            fontSize: 20.0,
-            fontWeight: FontWeight.bold,
-            backgroundColor: Color.fromARGB(255, 241, 56, 56),
-            color: Color.fromARGB(255, 255, 255, 255),
-          ),
+        child: Image(
+          image: NetworkImage(
+              'https://cdn.pixabay.com/photo/2023/11/06/02/16/butterfly-8368603_1280.jpg'),
         ),
+        // child: Text(
+        //   'hy there this is flutter practice',
+        //   style: TextStyle(
+        //     fontSize: 20.0,
+        //     fontWeight: FontWeight.bold,
+        //     backgroundColor: Color.fromARGB(255, 241, 56, 56),
+        //     color: Color.fromARGB(255, 255, 255, 255),
+        //   ),
+        // ),
       ),
     );
   }
